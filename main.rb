@@ -7,9 +7,8 @@ if (Gem.win_platform?)
   end
 end
 
-
-
-require "./metods.rb"
+require './test.rb'
+require './print_result.rb'
 
 new_test = Test.new
 new_test.calculate_score
